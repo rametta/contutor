@@ -1,0 +1,196 @@
+.course-icon:hover{
+    opacity: .8;
+}
+.search-bar{
+    background: transparent;
+    height:39px;
+    color:#ffffff;
+    border: 2px solid #ffffff;
+    text-align:center;
+    font-family: 'Oxygen', sans-serif;
+}
+.search-bar:focus{
+    outline:none;
+    background: #ffffff;
+    color: #3c3c3c;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+::-webkit-input-placeholder{
+    color: #ffffff;
+}
+:-moz-placeholder {
+  color: #ffffff;
+}
+::-moz-placeholder {
+  color: #ffffff;
+}
+:-ms-input-placeholder {
+  color: #ffffff;
+}
+::-ms-input-placeholder {
+  color: #ffffff;
+}
+.con-page-title{
+    background:#ffffff;
+    padding-top:10px;
+    padding-bottom:25px;
+}
+.con-page-title h1{
+    letter-spacing: 0;
+}
+.con-tutor-panel h3{
+    letter-spacing: 0;
+}
+.badge-maroon{
+    background-color: #921a35;
+    margin-bottom:10px;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+}
+.large-padding-top{
+    padding-top:100px;
+}
+h1 h2 h3 h4 h5 h6{
+    letter-spacing:0;
+}
+/* Tutor profile page styling */
+.tutor-top{
+    padding-top:200px;
+    background-color: #efefef;
+}
+.tutor-mid{
+    background-color: #ffffff;
+    -webkit-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    -moz-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    box-shadow: 4px 4px 40px 1px rgba(50,50,50,0.1);
+}
+.tutor-bot{
+    background-color: #efefef;
+}
+.language-btns{
+    width:120px;
+}
+.btn-language{
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: 25px;
+    color:#921a35;
+    margin-top:10px;
+    text-transform: uppercase;
+    text-align:center;
+    -webkit-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    -moz-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+}
+.btn-language:hover{
+    color: rgba(50,50,50,.5);
+}
+.btn-course{
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: 25px;
+    color:#921a35;
+    margin-bottom:5px;
+    text-transform: uppercase;
+    text-align:center;
+    -webkit-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    -moz-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+}
+.btn-course:hover{
+    color: rgba(50,50,50,.5);
+}
+.btn-contact{
+    background-color: #921a35;
+    border: 1px solid #efefef;
+    border-radius: 25px;
+    color:#ffffff;
+    margin-top:10px;
+    text-transform: uppercase;
+    text-align:center;
+    -webkit-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    -moz-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+}
+.btn-contact:hover{
+    background-color: #ffffff;
+    color:#921a35;
+}
+.btn-contact-sm{
+    background-color: #921a35;
+    border: 1px solid #efefef;
+    border-radius: 25px;
+    color:#ffffff;
+    font-size:10px;
+    text-transform: uppercase;
+    text-align:center;
+    padding: 8px 12px 8px 12px;
+    -webkit-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    -moz-box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+    box-shadow: 4px 4px 25px 1px rgba(50,50,50,0.1);
+}
+.btn-contact-sm:hover{
+    background-color: #ffffff;
+    color:#921a35;
+}
+.profile-pic{
+    -webkit-box-shadow: 6px 6px 25px 1px rgba(50,50,50,0.4);
+    -moz-box-shadow: 6px 6px 25px 1px rgba(50,50,50,0.4);
+    box-shadow: 6px 6px 25px 1px rgba(50,50,50,0.4);
+    position:relative;
+    bottom:100px;
+}
+.profile-name{
+    position: relative;
+    bottom:100px;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
+.profile-major{
+    position: relative;
+    bottom:100px;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
+.profile-description{
+    position: relative;
+    bottom:80px;
+}
+.profile-achievements{
+    bottom:90px;
+    position: relative;
+    color:#921a35;
+}
+.glyphicon-certificate{
+    color:#921a35;
+}
+.profile-likes{
+    font-size: 30px;
+    color: #921a35;
+}
+.profile-likes a span{
+    color:#921a35;
+}
+.profile-likes a span:hover{
+    opacity: .5;
+}
+.profile-rate{
+    color:#921a35;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.profile-mobile{
+    margin-top:15px;
+}
+.comment-title{
+    color: #921a35;
+}
+.tutor-button, .tutor-button:hover, .tutor-count, .tutor-count:hover, .tutor-wrapper, .tutor-wrapper:hover, .tutor-wrapper a, .tutor-wrapper a:hover{
+    text-decoration:none !important;
+    border-bottom: 0 !important;
+}
